@@ -1,0 +1,26 @@
+#! WARNING !
+#! Please reload this script only if you're sure, your server can crash if you reload this skript too much. 
+#! Recommended addons: SkQuery and Skrayfall 
+#! Required addons:
+#! Install if you want: json.sk
+
+variables:
+	json.sk: false
+
+options:
+	space_helmet: &f&lSpace Helmet
+	space_helpet.lore: &7Thanks to laziness, ill finish this later.
+	space_chestplate: &f&lSpace Chestplate
+	space_chestplate.lore: &7Thanks to laziness, ill finish this later.
+	space_leggings: &f&lSpace Leggings
+	space_leggings.lore: &7Thanks to laziness, ill finish this later. 
+	space_boots: &f&lSpace Boots
+	space_boots.lore: &7Thanks to laziness, ill finish this later.
+
+on load:
+	register new shapeless recipe for glowing iron helmet of protection 6 and unbreaking 5 named "{@space_helmet}" using iron_block, iron_block, iron_block, iron_block, glass, iron_block, iron_block, iron_block, iron_block
+	register new shapeless recipe for glowing iron chestplate of protection 8 and unbreaking 7 named "{@space_chestplate}" using iron_block, diamond_block, iron_block, iron_block, iron_block, iron_block, iron_block, iron_block, iron_block 
+	register new shapeless recipe for glowing iron leggings of protection 4 and unbreaking 3 named "{@space_leggings}" using iron_block, iron_block, iron_block, iron_block, air, iron_block, iron_block, air, iron_block 
+	register new shapeless recipe for glowing iron boots of protection 5 and unbreaking 4 named "{@space_boots}" using iron_block, air, iron_block, iron_block, air, iron_block, air, air, air
+
+#! I'm way to tired to finish other events.
